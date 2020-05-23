@@ -70,12 +70,12 @@ var hpr = new Cesium.HeadingPitchRoll(heading, pitch, roll);
   hpr
 ),
       model:{
-        uri:"windturbine.gltf",
+        uri:"windturbine.glb",
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         minimumPixelSize: 50,
         maximumScale:200,
         scale:1.0,
-        runAnimations:false,
+        runAnimations:true,
       },
 });
 }
